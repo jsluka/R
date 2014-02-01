@@ -1,0 +1,10 @@
+Material	Weight	Percent
+FoodScraps	31.7	12.5
+Glass	13.6	5.3
+Metals	20.8	8.2
+Paper,Paperboard	83.0	32.7
+Plastics	30.7	12.1
+Rubber,Leather,Textiles	19.4	7.6
+Wood	14.2	5.6
+YardTrimmings	32.6	12.8
+Other	8.2	3.2

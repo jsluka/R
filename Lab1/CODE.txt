@@ -1,0 +1,79 @@
+Justin Sluka
+
+
+A)
+CODE:
+beringseafish_Runs <- read.table("C:/beringseafish.txt",header=TRUE,nrows=5,colClasses=c('NULL','numeric'))
+
+beringseafish_Runs
+
+OUTPUT:
+> beringseafish_Runs <- read.table("C:/beringseafish.txt",header=TRUE,nrows=5,colClasses=c('NULL','numeric'))
+> 
+> beringseafish_Runs
+  Runs
+1 22.9
+2 44.5
+3 47.1
+4 42.0
+5 45.6
+
+B)
+CODE:
+beringseafish_Runs <- read.table("C:/beringseafish.txt",header=TRUE,nrows=5,colClasses=c('NULL','numeric'))
+beringseafish_Years <- read.table("C:/beringseafish.txt",header=TRUE,nrows=5,colClasses=c('integer','NULL'))
+
+beringseafish_Runs
+beringseafish_Years
+
+
+OUTPUT:
+> beringseafish_Runs <- read.table("C:/beringseafish.txt",header=TRUE,nrows=5,colClasses=c('NULL','numeric'))
+> beringseafish_Years <- read.table("C:/beringseafish.txt",header=TRUE,nrows=5,colClasses=c('integer','NULL'))
+> 
+> beringseafish_Runs
+  Runs
+1 22.9
+2 44.5
+3 47.1
+4 42.0
+5 45.6
+> beringseafish_Years
+  Year
+1 1988
+2 1989
+3 1990
+4 1991
+5 1992
+
+C)
+CODE:
+beringseafish <- read.table("C:/beringseafish.txt",header=TRUE)
+
+beringseafish
+
+OUTPUT:
+> beringseafish <- read.table("C:/beringseafish.txt",header=TRUE)
+> 
+> beringseafish
+   Year Runs
+1  1988 22.9
+2  1989 44.5
+3  1990 47.1
+4  1991 42.0
+5  1992 45.6
+6  1993 52.7
+7  1994 50.3
+8  1995 60.8
+9  1996 37.0
+10 1997 18.8
+11 1998 18.1
+12 1999 39.5
+13 2000 28.4
+14 2001 22.0
+15 2002 17.2
+16 2003 26.5
+17 2004 43.5
+18 2005 39.3
+19 2006 43.1
+20 2007 44.3
